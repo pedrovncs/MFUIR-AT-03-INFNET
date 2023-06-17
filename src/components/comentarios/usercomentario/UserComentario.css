@@ -1,0 +1,11 @@
+.user-comentario{
+  margin: 2vw;
+}
+
+.user-comentario > div{
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  justify-content: flex-start;
+  
+}

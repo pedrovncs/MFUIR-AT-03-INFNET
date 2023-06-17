@@ -1,0 +1,10 @@
+.avaliacao{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nota{
+  display: flex;
+  align-items: center;
+}

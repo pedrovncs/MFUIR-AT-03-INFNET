@@ -1,0 +1,10 @@
+.pergunta{
+  margin: 2vw;
+}
+
+.pergunta > div{
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  justify-content: flex-start;
+}

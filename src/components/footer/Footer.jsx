@@ -12,7 +12,7 @@ export default function Footer(){
           <a href="#"><img className="zap" src="./src/components/footer/assets/whatsapp.svg" /> </a>
         </div>
       </div>
-      <h1><a href="">LOGO</a></h1>
+      <a href=""><h1>LOGO</h1></a>
     </div>
     <div className="copyright">
       © 2023 - Todos os direitos reservados.

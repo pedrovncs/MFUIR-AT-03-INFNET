@@ -1,9 +1,10 @@
 import './Produto.css'
+import DadosProduto from './dadosproduto/DadosProduto';
 
-export default function Produto({nomeProd, imagemProd, }){
-  return(
+export default function Produto({ infoProd }) {
+  return (
     <div className='produto'>
-      <img src={imagemProd} alt={nomeProd}
+      <DadosProduto imagem={infoProd.imagem} nota={infoProd.nota} vendas={infoProd.vendas} nome={infoProd.nome} valor={infoProd.valor} desconto={infoProd.desconto} />
     </div>
   )
 }

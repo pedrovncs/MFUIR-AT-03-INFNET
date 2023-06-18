@@ -1,14 +1,16 @@
 import './DadosProduto.css';
 import Avaliacao from '/src/components/avaliacao/Avaliacao';
+import Vendedor from './vendedor/Vendedor'
 
-export default function DadosProduto({ imagem, nome, valor, vendas, nota, desconto }) {
+export default function DadosProduto({ nome, valor, vendas, nota, desconto }) {
+  const vendedorInfo = {nome: 'Pedro Vinicius', nota: 4.8, email: 'pdrovncs@gmail.com', tel: '21 999116142'}
+  
   const calculaDesconto = (valor, desconto) => {
     return valor - (valor * desconto / 100);
   };
-
+  
   return (
     <div className='dados-produto'>
-      <img src={imagem} alt={nome} />
       <h1>{nome}</h1>
       <div className="produto-info">
         <Avaliacao nota={nota} vendas={vendas}/> 
@@ -32,6 +34,7 @@ export default function DadosProduto({ imagem, nome, valor, vendas, nota, descon
           Adicionar ao carrinho
         </button>
       </div>
+      <Vendedor infoVend = {vendedorInfo} />
     </div>
   );
 }

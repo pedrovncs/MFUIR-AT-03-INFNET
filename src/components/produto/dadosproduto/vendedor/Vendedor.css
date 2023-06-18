@@ -1,5 +1,5 @@
 .vendedor-info{
-  margin: 0 auto;
+  margin: 2vh auto;
   width: 90%;
   display: grid;
   background-color: #D9D9D9;
@@ -11,8 +11,11 @@
 
 .vendedor-nome{
   display: flex;
-  justify-content: center;
-  gap: 3vw;
+  gap: 5px;
+}
+
+.vendedor-nome img{
+  width: 20px;
 }
 
 .vendedor-nome div{
@@ -28,3 +31,8 @@
   align-items: center;
 }
 
+@media (min-width: 600px){
+  .vendedor-info{
+    width: auto;
+  }
+}

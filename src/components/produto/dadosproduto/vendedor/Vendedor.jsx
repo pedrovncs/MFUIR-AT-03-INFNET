@@ -6,7 +6,7 @@ export default function Vendedor({infoVend}){
       <div className='vendedor-nome'>
         <p><b>Vendido por:</b> {infoVend.nome}</p>
         <div>
-          <img src='./src/components/vendedor/assets/star.svg' />
+          <img src='./src/components/produto/dadosproduto/vendedor/assets/star.svg' />
           <p>{infoVend.nota}</p>
         </div>
       </div>

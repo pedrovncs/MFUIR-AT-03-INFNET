@@ -1,10 +1,14 @@
 .relacionados h2{
-  padding: 0 5vw;
+  padding: 0 2vw;
 }
 
 .relacionados-content{
   display: flex;
   background-color:#D9D9D9;
-  padding: 2vw;
+  padding: 0.7vw;
   border-radius: 5px
+}
+
+.relacionados img{
+  border-radius: 10px;
 }

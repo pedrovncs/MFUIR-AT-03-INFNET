@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 5vw
+  gap: 1vw
 }
 
 .produto-valor h3{
@@ -46,4 +46,10 @@
 
 .botao-carrinho{
   background-color: #C7D1B9;
+}
+
+@media (min-width: 600px){
+  .dados-produto{
+    width: auto;
+  }
 }
